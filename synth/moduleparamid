@@ -1,0 +1,1 @@
+1	inst_a_width=32,inst_b_width=32,inst_tc_mode=1,inst_rem_mode=1,inst_num_stages=2,inst_stall_mode=1,inst_rst_mode=1,inst_op_iso_mode=0
