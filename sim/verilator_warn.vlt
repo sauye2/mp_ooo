@@ -1,0 +1,15 @@
+`verilator_config
+lint_off -rule WIDTHEXPAND  -file "*/rvfimon.v"
+lint_off -rule WIDTHTRUNC   -file "*/rvfimon.v"
+lint_off -rule BLKSEQ       -file "*/rvfimon.v"
+lint_off -rule BLKSEQ       -file "*/dram_w_burst_frfcfs_controller.sv"
+lint_off -rule BLKSEQ       -file "*/monitor.sv"
+lint_off -file "/software/*"
+lint_off -file "/software/*"
+lint_off -rule GENUNNAMED
+lint_off -rule DECLFILENAME
+lint_off -rule UNUSEDPARAM
+lint_off -rule UNUSEDSIGNAL
+lint_off -rule PINCONNECTEMPTY
+lint_off -rule CASEINCOMPLETE
+lint_off -rule LATCH
